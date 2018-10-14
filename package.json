@@ -1,0 +1,28 @@
+{
+  "name": "gamedesignsite",
+  "version": "1.0.0",
+  "description": "server for game design",
+  "main": "app.js",
+  "dependencies": {
+    "eslint": "^5.7.0",
+    "express": "^4.16.4",
+    "favicon": "^0.0.2",
+    "json": "^9.0.6",
+    "pug": "^2.0.3",
+    "serve-favicon": "^2.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jontrejo5/gamedesignsite.git"
+  },
+  "author": "jonathan trejo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jontrejo5/gamedesignsite/issues"
+  },
+  "homepage": "https://github.com/jontrejo5/gamedesignsite#readme"
+}
