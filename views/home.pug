@@ -1,1 +1,75 @@
-| test
+doctype html
+html
+  head
+    title title
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=Raleway')
+    style.
+      body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+  body.w3-light-grey
+    //
+      w3-content defines a container for fixed size centered content,
+      and is wrapped around the whole page content, except for the footer in this example
+    .w3-content(style='max-width:1400px')
+      // Header
+      header.w3-container.w3-center.w3-padding-32
+        h1
+          b Super Shoot Man
+        p
+          | Jonathan Trejo Game Design Proposal 
+          span.w3-tag CSCI 4920
+      // Grid
+      .w3-row
+        // Blog entries
+        .w3-col.l8.s12
+          // Blog entry
+          .w3-card-4.w3-margin.w3-white
+            img(src='/images/woods.jpg', alt='Nature', style='width:100%')
+            .w3-container
+              h3
+                b Proposal
+              h5
+                | Proposal for 'Super Shoot Man', 
+                span.w3-opacity October 15, 2018
+            .w3-container
+              p
+                | Super Shoot man will be a first person shooter built in the Unreal Engine 4, for Windows systems. The plan for this project is to design a sci-fi shooting game in which the player has to fight swarms of evil enimies called Zorgs. There will be different types of Zorgs with different actions. There will also be some type of desstructable environment element. It will also have multiple maps and levels.
+          hr
+          // Blog entry
+          .w3-card-4.w3-margin.w3-white
+            img(src='/images/bridge.jpg', alt='Norway', style='width:100%')
+            .w3-container
+              h3
+                b BLOG ENTRY
+              h5
+                | Title description, 
+                span.w3-opacity April 2, 2014
+            .w3-container
+              p
+                | Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed
+                | tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.
+          // END BLOG ENTRIES
+          // Introduction menu
+          .w3-col.l4
+            // About Card
+            .w3-card.w3-margin.w3-margin-top
+              img(src='/images/avatar_g.jpg', style='width:100%')
+              .w3-container.w3-white
+                h4
+                  b My Name
+                p
+                  | Just me, myself and I, exploring the universe of uknownment. I have a heart of love and a interest of lorem ipsum and mauris neque quam blog. I want to share my world with you.
+            // END Introduction Menu
+            // END GRID
+      br
+      // END w3-content
+      // Footer
+      footer.w3-container.w3-dark-grey.w3-padding-32.w3-margin-top
+        button.w3-button.w3-black.w3-disabled.w3-padding-large.w3-margin-bottom Previous
+        button.w3-button.w3-black.w3-padding-large.w3-margin-bottom Next »
+        p
+          | Powered by 
+          a(href='https://www.w3schools.com/w3css/default.asp', target='_blank') w3.css
+      
